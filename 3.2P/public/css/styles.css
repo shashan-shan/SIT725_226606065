@@ -1,0 +1,60 @@
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #2E7D32;
+}
+
+nav .brand-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: 500;
+}
+
+nav .brand-logo img {
+    display: block;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.main-body {
+    background-color: #FFF3E0;
+    color: #3E2723;
+    min-height: calc(100vh - 64px);
+    padding-bottom: 40px;
+}
+
+.materialboxed-image {
+    margin: 0 auto;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.add-recipe-button {
+    background-color: #EF6C00;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.add-recipe-button:hover {
+    background-color: #E65100;
+}
+
+.card .card-title {
+    font-size: 20px;
+}
+
+.card-reveal,
+.card-reveal .card-title,
+.card-reveal p {
+    color: black;
+}
+
+.modal-heading {
+    text-align: center;
+    color: #2E7D32;
+}
